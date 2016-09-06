@@ -1,6 +1,6 @@
 <html>
 
-<head><title>テスト</title></head>
+<head><title>テ ス ト</title></head>
 <body>
 <form method="post" action="cookie4_1.php">
 ユーザー名：<input type="text" name="name" value="<?php if(isset($_COOKIE["name"])) print $_COOKIE["name"]; ?>">
